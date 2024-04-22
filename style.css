@@ -1,0 +1,161 @@
+body {
+    color:black;
+    background-color: white;
+}
+
+/*header*/
+.header {
+    position: fixed;
+    top:0;
+    margin-top: 7px;
+    width: 99%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.header a:hover,
+.header a.active{
+    color: #5015ff;
+}
+/*fin header*/
+
+img {
+    width: 200px;
+    height: auto;
+    display: block; /* Pour centrer l'image horizontalement */
+    margin: 0 auto; /* Marge automatique à gauche et à droite pour centrer */
+    border: 2px solid black; /* Ajouter une bordure de 2px solide noire autour de l'image */
+    padding: 0px; /* Ajouter un remplissage de 10px à l'intérieur de la bordure */
+    border-radius: 10px; /* Ajouter des coins arrondis à la bordure */
+}
+
+
+
+h1 {
+    text-align: center; /* Centrer le texte horizontalement */
+    color: black; /* Changer la couleur du texte */
+    font-size: 36px; /* Changer la taille de la police à 36 pixels */
+    font-weight: bold; /* Mettre en gras le texte */
+    text-transform: uppercase; /* Mettre en majuscules */
+    letter-spacing: 1px; /* Espacement entre les lettres */
+    line-height: 2; /* Hauteur de ligne */
+}
+
+
+h3{
+    text-align: center; /* Centrer le texte horizontalement */
+    color: black; /* Changer la couleur du texte */
+    font-weight: bold; /* Mettre en gras le texte */
+    text-transform: uppercase; /* Mettre en majuscules */
+    letter-spacing: 1px; /* Espacement entre les lettres */
+    line-height: 2; /* Hauteur de ligne */
+}
+
+p {
+    text-align: center; /* Centrer le texte horizontalement */
+    display: flex; /* Utiliser le modèle de boîte flexible */
+    justify-content: center; /* Centrer horizontalement le contenu des paragraphes */
+    line-height: 2; /* Hauteur de ligne */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p > span {
+    text-align: left; /* Aligner le texte de gauche à droite à l'intérieur des balises <span> */
+    margin: 40px; /* Ajouter une marge de 0 sur les côtés et de 10px en haut et en bas */
+}
+
+
+
+ul {
+    text-align: center; /* Centrer le texte des éléments de liste */
+    margin: 0; /* Supprimer la marge par défaut du navigateur */
+    padding: 0; /* Supprimer le remplissage par défaut du navigateur */
+}
+
+li {
+    display: block; /* Afficher les éléments de liste en tant que blocs */
+    text-align: center; /* Aligner le texte à gauche dans chaque élément de liste */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Police de caractères */
+    margin: 0 auto; /* Centrer les éléments de liste horizontalement */
+}
+
+.skills {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.skill img {
+    width: 60px; /* Taille plus grande des images */
+    height: auto;
+    margin-right: 10px;
+}
+
+.skill .bars {
+    flex: 1;
+    display: flex;
+}
+
+.skill .bar {
+    height: 8px; /* Hauteur des barres plus petite */
+    margin-right: 5px;
+    background-color: #5015ff; /* Couleur des barres pleines */
+}
+
+.skill .bar.empty {
+    background-color: #ccc; /* Couleur des barres vides */
+}
+
+.contact-form {
+    max-width: 400px;
+    margin:  auto;
+    padding: 40px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-input,
+  .form-textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+  }
+  
+  .form-submit {
+    background-color: #5015ff;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-submit:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+  }
